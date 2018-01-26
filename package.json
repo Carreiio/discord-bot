@@ -1,0 +1,17 @@
+{
+  "name": "cherriibot",
+  "description": "A personal assistant bot for Carreiio",
+  "main": "bot.js",
+  "version": "0.0.1",
+  "contributors": [
+    "Carreiio",
+    "Kaimund600"
+  ],
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "*",
+    "request": "2.81.0"
+  }
+}
