@@ -11,9 +11,8 @@ client.on('message', message => {
   // These are questions asked to Cherrii, by addressing his name first.
     if (input.startsWith("cherrii ")) {
       // *** Ping ***
-      if ((input === 'cherrii ping') && (responses < responseMax)) {
+      if (input === 'cherrii ping') {
         message.reply("Pong! :D");
-        responses++;
       }
     }
 });
